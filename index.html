@@ -1,9 +1,5 @@
 <!DOCTYPE HTML>
-<!--
-	Story by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 
 <head>
@@ -26,16 +22,20 @@
 			class="banner style3 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
 			<div class="content">
 				<h1>Kevin Clower</h1>
-				<p class="major">I am an aspiring software engineer dedicated to continuous learning and growth in the
+				<p class="major">Hello, I am an aspiring software engineer dedicated to continuous learning and growth
+					in the
 					field of software development. Over the past year, I have gained hands-on experience with a variety
 					of programming languages and technologies, including HTML, CSS, JavaScript, React, Python, and
 					Node.js. My focus is on building innovative solutions while honing my skills to become a proficient
 					and versatile developer.
-					<!-- <br> <a href="https://unsplash.com/@kmitchhodge">Photo by K. Mitch Hodge</a> -->
+
 				</p>
 
 				<ul class="actions stacked">
 					<li><a href="#first" class="button big wide smooth-scroll-middle">View Projects</a></li>
+				</ul>
+				<ul class="actions stacked">
+					<li><a href="#" class="button big wide smooth-scroll-middle">Resume</a></li>
 				</ul>
 			</div>
 			<div class="image">
@@ -84,8 +84,9 @@
 		<section class="spotlight style2 orient-right content-align-left image-position-center onscroll-image-fade-in">
 			<div class="content">
 				<h2>Rick & Morty Single-Page-Application</h2>
-				<p>This was a sprint challenge project where I worked with an API using Axios and also utilized Cypress
-					testing. Working with libraries such as Bootstrap and Reactstrap to design a creative UI.
+				<p>The Rick And Morty fan site allows users to view information about the show Rick and Morty. The app
+					displays information about individual characters, different locations that the show takes place in,
+					along with episodes and details about each episode.
 				</p>
 				<ul class="actions stacked, flex">
 					<li><a href="https://github.com/KClower/Sprint-Challenge-Single-Page-Apps" class="button">View
@@ -124,9 +125,8 @@
 		<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
 			<div class="content">
 				<h2>Acme Credit</h2>
-				<p>In this project I used forms to create an app to apply for credit with the ability to edit the amount
-					applying for. Using YUP as my validation schema and
-					implementing Bootstrap and Reractstrap for enhanced UI.
+				<p>At Acme Credit users can easily apply for loans as well as edit any existing loan applications.
+					Applying or editing a loan is easy thanks to our clean and simple UI.
 				</p>
 				<ul class="actions stacked, flex">
 					<li><a href="https://github.com/KClower/AcmeCredit" class="button">View
@@ -144,7 +144,7 @@
 		<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
 			<div class="content">
 				<h2>NASA Pic of the Day</h2>
-				<p>Using the NASA API on this site you can view the photo of the day and see a description of the image.
+				<p>The NASA photo of the day displays a picture of uploaded from NASA and a description of the image.
 				</p>
 				<ul class="actions stacked, flex">
 					<li><a href="https://github.com/KClower/nasa-photo-of-the-day" class="button">View Code</a></li>
@@ -163,21 +163,41 @@
 
 
 		<!-- Footer -->
-		<footer class="wrapper style1 align-center">
-			<div class="inner">
+		<footer class="wrapper style1 align-center" style="background-color: rgb(183, 189, 109); padding-top: 40px;">
+			<div>
+				<h3>CONTACT ME</h3>
+				<form action="https://formspree.io/f/xkgggwgw" class="fs-form" target="_top" method="POST">
+					<div class="fs-field">
+						<input placeholder="Name   (required)" class="fs-input" id="name" name="name" required />
+					</div>
+
+					<div class="fs-field">
+						<input placeholder="Email   (required)" class="fs-input" id="email" name="email" required />
+					</div>
+
+					<div class="fs-field">
+						<input placeholder="Phone   (NOT required)" class="fs-input" id="phone" name="phone" />
+					</div>
+
+					<div class="fs-field">
+						<textarea placeholder="Message" class="fs-textarea" id="message" name="message"
+							required></textarea>
+						<p class="fs-description">What would you like to discuss?</p>
+					</div>
+					<div class="fs-button-group">
+						<button class="fs-button" type="submit">Send Message</button>
+					</div>
+				</form>
+			</div>
+			<div class="inner" style="padding-top: 90px;">
 				<ul class="icons">
-					<!-- <li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li> -->
-					<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a>
-					</li>
-					<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a>
+					<li><a href="https://github.com/KClower" class="icon brands style2 fa-github"><span
+								class="label">Github</span></a>
 					</li>
 					<li><a href="https://www.linkedin.com/in/kevin-clower-77583a33a/"
 							class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a>
 					</li>
-					<li><a href="mailto:kclower3@gmail.com" class="icon style2 fa-envelope"><span
-								class="label">Email</span></a></li>
 				</ul>
-				<p>&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 			</div>
 		</footer>
 
